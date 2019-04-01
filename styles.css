@@ -1,0 +1,118 @@
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Quicksand";
+    color: rgb(6, 90, 123);
+}
+
+h1 {
+    font-size:36px;
+}
+
+h2 {
+    font-size:30px;
+}
+
+h3 {
+    font-size:24px;
+}
+
+.flex-grid {
+    flex-flow: row wrap;
+    display:flex;
+}
+
+.book-cover {
+    height: 400px;
+    width:  300px;
+    padding: 15px;
+    margin:10px;
+    background-color: greenyellow;
+}
+
+.book-show {
+    display:flex;
+    overflow-x: scroll;
+}
+
+.book-thumbnail {
+    width: 350px;
+}
+
+
+header {
+    background-color: greenyellow;
+    border-bottom-style:solid;
+    border-bottom-width:5px;
+    border-bottom-color: rgb(6, 90, 123);
+}
+
+nav {
+    background-color:rgb(6, 90, 123);
+    height:25px;
+    
+}
+
+
+main {
+    width:70%;
+    margin:auto;
+}
+nav a{
+        color: white;
+        font-size: 20px;
+        margin:30px;
+        text-decoration: none;
+        font-family: "Raleway";
+}
+
+nav a:hover{
+    color: yellowgreen;
+
+}
+nav ul{
+    display:flex;
+}
+
+.author-info {
+    width:50%;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+footer {
+    background-color:rgb(6, 90, 123);
+    color: white;
+    font-size: 20px;
+    font-family: "Raleway";
+    height:100px;
+}
+
+footer a {
+    color: yellowgreen;
+
+}
+
+footer p {
+    margin-left:35%;
+    padding-top:10px
+}
+
+.review {
+    background-color: lightgray;
+    margin-top:10px;
+    padding:20px;
+}
+
+.review-author, .review-date {
+    font-weight:bold;
+    font-family: "Raleway";
+    color: rgb(6, 90, 123);
+    font-size:18px;
+}
+
