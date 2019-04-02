@@ -1,3 +1,6 @@
+body{
+    background-color:beige;
+}
 p {
     font-family: Helvetica, sans-serif;
 }
@@ -47,9 +50,11 @@ header {
     border-bottom-style:solid;
     border-bottom-width:5px;
     border-bottom-color: rgb(6, 90, 123);
+    text-align: center;
 }
 
 nav {
+    
     background-color:rgb(6, 90, 123);
     height:25px;
     
@@ -60,12 +65,16 @@ main {
     width:70%;
     margin:auto;
 }
+
+
 nav a{
         color: white;
         font-size: 20px;
-        margin:30px;
+        margin-left:30px;
+        margin-right:30px;
         text-decoration: none;
         font-family: "Raleway";
+        
 }
 
 nav a:hover{
@@ -74,6 +83,7 @@ nav a:hover{
 }
 nav ul{
     display:flex;
+    
 }
 
 .author-info {
@@ -99,7 +109,7 @@ footer a {
 }
 
 footer p {
-    margin-left:35%;
+    text-align: center;
     padding-top:10px
 }
 
