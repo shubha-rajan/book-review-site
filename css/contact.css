@@ -9,6 +9,10 @@
     vertical-align: middle;
 }
 
+.contact-method {
+    margin: auto;
+    width:40%;
+}
 .contact-method  a{
     font-weight:bold;
     font-family: "Raleway";
