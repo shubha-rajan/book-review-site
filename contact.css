@@ -1,0 +1,22 @@
+.goofy-bio {
+    text-align: center;
+}
+
+.icon {
+    margin:5px;
+    height:60px;
+    width:60px;
+    vertical-align: middle;
+}
+
+.contact-method  a{
+    font-weight:bold;
+    font-family: "Raleway";
+    color: rgb(6, 90, 123);
+    font-size:18px;
+    text-decoration: none;
+}
+
+.contact-method  a:hover{
+    color: rgb(200, 255, 117);
+}

@@ -1,0 +1,18 @@
+
+.book-cover {
+    height: 400px;
+    width:  300px;
+    padding: 15px;
+    margin:10px;
+    background-color:rgb(200, 255, 117);
+}
+
+.book-show {
+    display:flex;
+    overflow-x: scroll;
+}
+
+.book-thumbnail {
+    width: 350px;
+}
+
